@@ -53,7 +53,8 @@ client.on('messageCreate', (message) => {
                     // Adjust the first week's start date to match the actual start date
                     const adjustedWeekStart = weeks.length === 0 ? startDate : weekStart;
 
-                    const adjustedWeekEnd = weeks.length === 0 ? weekEnd : weekEnd; // Ensure the end date remains correct
+                    const isCurrentWeek = date.getTime() === today.getTime();
+                    const weekHours = isCurrentWeek ? currentWeek.filter(d => new Date(d) <= today).length * 8 : currentWeek.length * 8
                     weeks.push({
                         weekStart: adjustedWeekStart.toDateString(),
                         weekEnd: weekEnd.toDateString(),
