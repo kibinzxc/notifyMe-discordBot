@@ -7,7 +7,7 @@ A simple notification Discord bot created for experimental purposes and personal
 
 ## About ℹ️
 
-NotifyMe is a personal project I created to explore Discord bot development. It's designed to handle basic notification functionalities within Discord servers.
+NotifyMe is a personal project I created to explore Discord bot development. It's designed to handle basic notification functionalities based on your customizations within the Discord servers.
 
 ## Features ✨
 
