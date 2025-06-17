@@ -37,3 +37,6 @@ NotifyMe is a personal project I created to explore Discord bot development. It'
 - !notify [message] - Sends a notification
 - !help - Shows available commands
 
+
+Note: This personal project will be every month
+
